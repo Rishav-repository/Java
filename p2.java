@@ -2,8 +2,10 @@ import java.util.Scanner;
 public class p2 {
     public static void main(String[]args){
         Scanner input = new Scanner(System.in);
-         
+        System.out.println("Enter your Roll No.");
         int rollNo = input.nextInt();
-       System.out.println("Enter Roll no. - "+ rollNo);
+        System.out.println("Your Roll no.= "+ rollNo );  
+       
+      
     }
 }
